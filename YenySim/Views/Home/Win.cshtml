@@ -1,0 +1,14 @@
+﻿@{
+    ViewBag.Title = "Win";
+}
+<body>
+    <br />
+    <div class="gameover">
+        <h1> You Won!</h1>
+    </div>
+    <div class="continue">
+        <p> Do you want to play again? </p>
+        <div class="yes"> <a href="@Url.Action("NewGame", "Home")"> NEW GAME </a> </div>
+        <div class="yes"> <a href="@Url.Action("Index", "Home")"> HOME </a> </div>
+    </div>
+</body>

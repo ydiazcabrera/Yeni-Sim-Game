@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="YenySimSaveModelStoreContainer" CdmEntityContainer="YenySimSaveEntities">
+    <EntitySetMapping Name="Cities">
+      <EntityTypeMapping TypeName="YenySimSaveModel.City">
+        <MappingFragment StoreEntitySet="City">
+          <ScalarProperty Name="Actions" ColumnName="Actions" />
+          <ScalarProperty Name="ID" ColumnName="ID" />
+          <ScalarProperty Name="Villagers" ColumnName="Villagers" />
+          <ScalarProperty Name="Wood" ColumnName="Wood" />
+          <ScalarProperty Name="Food" ColumnName="Food" />
+          <ScalarProperty Name="Water" ColumnName="Water" />
+          <ScalarProperty Name="Wells" ColumnName="Wells" />
+          <ScalarProperty Name="Houses" ColumnName="Houses" />
+          <ScalarProperty Name="Day" ColumnName="Day" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>
